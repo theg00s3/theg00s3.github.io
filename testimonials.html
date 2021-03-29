@@ -46,112 +46,45 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-                                <div class="page-title text-center">
-                                    <h2>My <span class="primary">clients</span><span class="title-bg">Speech</span></h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                <div class="page-title text-center flex-middle">
+                                    <h2>Project <span class="primary">Idea</span><span class="title-bg">Bots</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="text-center">
+                                    <br>
+                                    <br>
+                                    <h3>Overview</h3>
+                                    <p>A discord bot that can run (at first) Python code, for use in Computer Science and IT related discord servers, so that people can collaboratively view the python output for any commands that are run. It will act almost like a pseudo-version of the Python Integrated Development and Learning Environment (IDLE), so that everyone can view the code output at the same time, without the unnecessary bandwidth used by screensharing programs</p>
+                                    <br>
+
+                                    <h3>Motivation</h3>
+                                    <p>My motivation for this project comes from doing Foundations of Computing at the University of Melbourne, where we would constantly be discussing various workshop problems in the subject’s Discord server. We’d always argue about correct solutions, because people either had typos or syntax errors, or the version of Python they were running had quirks that weren’t present in the version of Python we were recommended to run. A bot like this would have saved us all a lot of time, as we could collaborate on the code in the server, instead of working on it individually.</p>
+                                    <br>
+                                    
+                                    <h3>Description</h3>
+                                    <p>This Discord bot will be used primarily in the Discord servers of Computer Science and Information Technology students, but it could also be useful in hobbyist servers and technical support servers. How I envision the bot working is someone types the set trigger (for example “!pybot”) and then the version of Python they want (for example 3.8.2) and then their code in a code block (using markdown formatting). This will then output the code that was just run, after which the terminal output gets put into an embedded message, to avoid the terminal output being split up amongst messages from Discord users. Typing the trigger (for example “!pybot”) and then stop will interrupt the running code, in case it’s stuck in a logic loop or something of the like. There is a possibility for commercialisation, by restricting the free runtime to a certain number of seconds, and users can pay a certain amount to increase the runtime limit. The VM running in Google Cloud, Microsoft Azure or Amazon Web Services will be a basic, low-cost one running Ubuntu 20.04 LTS, for stability, and the actual bot will be sandboxed, so that people can’t use the VM for executing malicious code that travels across the internet. The output itself will be transmitted through a separate Python process that reads the output of the sandboxed process and transmits it to the Discord server’s webhook.</p>
+                                    <br>
+                                    
+                                    <h3>Tools and technologies</h3>
+                                    <p>The software needed for this will simply be Python, but various versions of it to accommodate for everyone’s needs, as well as Discord for testing the bot, and GitHub for hosting the code and maintain proper versioning protocols. The hardware/equipment needed will be a cloud server to run the actual bot, on something like Google Cloud, Microsoft Azure or Amazon Web Services. Alternatively, we could run it using a Raspberry Pi and someone’s residential internet connection, although that would not be super reliable or fast, given the state of Australia’s internet.</p>
+                                    <br>
+
+                                    <h3>Skills required</h3>
+                                    <p>This bot shouldn’t be very difficult to code, as Python is a relatively user friendly language to code in, and the actual running of the server should be easy, as Google Cloud, Microsoft Azure and Amazon Web Services make it very easy to spin up servers to run programs. It is very feasible to find the skills, software and hardware to create and run this Discord bot. Most, if not all people who are doing Introduction to Information Technology would be familiar with Python, which would greatly assist with building this bot.</p>
+                                    <br>
+
+                                    <h3>Outcome</h3>
+                                    <p>If this project is successful, the outcome will be a Discord bot running off of Google Cloud, Microsoft Azure or Amazon Web Services hardware, invited into multiple Computer Science and Information Technology Discord servers and being actively used by members. The original problem will be solved as everyone will be working with a standardised version of Python and people will be able to freely share their working code while running without having to struggle with a screensharing program that will take up unnecessary bandwidth and add unneeded complexity to the collaboration process.</p>
+                                    <br>
                                 </div>
                             </div>                            
                         </div> <!-- /.row -->
-
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="testimonials">
-                                    <div class="item clear">
-                                        <figure class="thumb">
-                                            <div class="tm-hex" style="background-image: url('img/tm.jpg');">
-                                                <div class="hexTop"></div>
-                                                <div class="hexBottom"></div>
-                                            </div>
-                                            <figcaption>
-                                                <h4>Adam Drigan</h4>
-                                                <span>CEO, Ultra Solution</span>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="text">
-                                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item clear">
-                                        <figure class="thumb">
-                                            <div class="tm-hex" style="background-image: url('img/tm-2.jpg');">
-                                                <div class="hexTop"></div>
-                                                <div class="hexBottom"></div>
-                                            </div>
-                                            <figcaption>
-                                                <h4>Adam Drigan</h4>
-                                                <span>CEO, Ultra Solution</span>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="text">
-                                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item clear">
-                                        <figure class="thumb">
-                                            <div class="tm-hex" style="background-image: url('img/tm.jpg');">
-                                                <div class="hexTop"></div>
-                                                <div class="hexBottom"></div>
-                                            </div>
-                                            <figcaption>
-                                                <h4>Adam Drigan</h4>
-                                                <span>CEO, Ultra Solution</span>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="text">
-                                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item clear">
-                                        <figure class="thumb">
-                                            <div class="tm-hex" style="background-image: url('img/tm-2.jpg');">
-                                                <div class="hexTop"></div>
-                                                <div class="hexBottom"></div>
-                                            </div>
-                                            <figcaption>
-                                                <h4>Adam Drigan</h4>
-                                                <span>CEO, Ultra Solution</span>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="text">
-                                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item clear">
-                                        <figure class="thumb">
-                                            <div class="tm-hex" style="background-image: url('img/tm.jpg');">
-                                                <div class="hexTop"></div>
-                                                <div class="hexBottom"></div>
-                                            </div>
-                                            <figcaption>
-                                                <h4>Adam Drigan</h4>
-                                                <span>CEO, Ultra Solution</span>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="text">
-                                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item clear">
-                                        <figure class="thumb">
-                                            <div class="tm-hex" style="background-image: url('img/tm-2.jpg');">
-                                                <div class="hexTop"></div>
-                                                <div class="hexBottom"></div>
-                                            </div>
-                                            <figcaption>
-                                                <h4>Adam Drigan</h4>
-                                                <span>CEO, Ultra Solution</span>
-                                            </figcaption>
-                                        </figure>
-                                        <div class="text">
-                                            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.row -->
+<br> <br> <br>
+                    </div> <!-- /.row -->
                     </div> <!-- /.container -->
-
-                    <nav class="page-nav clear">
+                    <nav class="page-nav clear footer">
                         <div class="container">
                             <div class="flex flex-middle space-between">
                                 <span class="prev-page"><a href="works.html" class="link">&larr; Prev Page</a></span>
@@ -165,6 +98,7 @@
 
                 </div> <!-- /.pt-tablecell -->
             </div> <!-- /.pt-table -->
+            
         </main> <!-- /.site-wrapper -->
         
         <!-- ================================
