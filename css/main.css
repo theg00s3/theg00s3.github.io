@@ -1593,3 +1593,20 @@ textarea, label {
     margin-right: 0;
   }
 }
+
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.responsive {
+  width: 45%;
+  height: auto;
+}
